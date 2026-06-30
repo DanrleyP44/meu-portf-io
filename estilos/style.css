@@ -23,6 +23,15 @@
   --fundo-card: #fffcf7;
 }
 
+.escuro {
+  --fundo-principal: #18181b;
+  --texto: #f4f4f5;
+  --texto-inverso: #18181b;
+  --destaque: #a78bfa;
+  --destaque-inverso: #7c3aed;
+  --fundo-card: #27272a;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--fundo-principal);
@@ -229,6 +238,23 @@ article h2 {
   border-left-width: 15px;
   border-color: var(--destaque);
   cursor: pointer;
+}
+
+footer {
+  background-color: var(--destaque);
+  padding: 10px;
+  text-align: center;
+  color: var(--texto-inverso);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--texto-inverso);
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /*Mídias maiores*/

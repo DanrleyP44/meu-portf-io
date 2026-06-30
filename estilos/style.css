@@ -108,6 +108,10 @@ main {
   font-size: 1.5em;
 }
 
+#ficha p {
+  font-size: 0.8em;
+}
+
 .social {
   margin-top: 20px;
   display: flex;
@@ -275,7 +279,7 @@ footer a:hover {
   }
 
   #skill-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .projeto-container .projeto {
